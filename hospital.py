@@ -18,8 +18,8 @@ my_conn1= sqltor.connect (host='localhost', user = 'root', passwd =
 my_conn2 = sqltor.connect(host='localhost', user = 'root', passwd =
 '12345678', database = 'IP1')
 a= pd.DataFrame(['Name', "ID"])
-CREATION OF USER-DEFINED FUNCTION FOR CODING AFTER
-                     CORRECT LOGIN
+'''CREATION OF USER-DEFINED FUNCTION FOR CODING AFTER
+                     CORRECT LOGIN'''
 def dialog1():
     username=entry1.get()
     password = entry2.get()
@@ -118,7 +118,7 @@ e.insert(END, Appointments[j]) i=i+ 1
 r_set=engine2.execute("SELECT * FROM appointments") i =0
 for Appointments in r_set:
 my_w.mainloop()
-CODE FOR DELETING AN APPOINTMENT FROM THE LIST
+'CODE FOR DELETING AN APPOINTMENT FROM THE LIST
       def delapp ():
           myw2=Tk()
           myw2.title('Remove an Appointment')
